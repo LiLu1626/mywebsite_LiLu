@@ -1578,6 +1578,17 @@ body.dark-mode .featured-label {
     color: #111;
 }
 
+body.dark-mode .project-links a {
+    background-color: #1a1a1a;
+    border-color: #444;
+    color: #eee;
+}
+
+body.dark-mode .project-links a:hover {
+    background-color: #252525;
+    border-color: #666;
+    color: #fff;
+}
 
 /* Education */
 

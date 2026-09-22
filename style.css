@@ -1714,6 +1714,48 @@ body.dark-mode .back-to-top:hover {
     border-color: #777;
 }
 
+/* =========================
+   Project Links
+========================= */
+
+.project-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 22px;
+}
+
+.project-links a {
+    display: inline-block;
+
+    padding: 9px 16px;
+
+    border: 1px solid #cbd2d9;
+    border-radius: 7px;
+
+    background: #ffffff;
+    color: #344054;
+
+    font-size: 13px;
+    font-weight: 600;
+
+    text-decoration: none;
+
+    transition:
+        background 0.2s ease,
+        border-color 0.2s ease,
+        color 0.2s ease,
+        transform 0.2s ease;
+}
+
+.project-links a:hover {
+    background: #f4f6f8;
+    border-color: #98a2b3;
+    color: #1f2933;
+
+    transform: translateY(-1px);
+}
+
 
 /* =========================
    Responsive

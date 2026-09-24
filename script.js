@@ -167,18 +167,34 @@ function setLanguage(language) {
 
 
     // =========================
-    // Update Page Title
+    // Update Page Title & Description
     // =========================
+
+    const metaDescription = document.querySelector('meta[name="description"]');
 
     if (language === "en") {
 
         document.title =
-            "Li Lu | Machining Development Engineer";
+            "Li Lu | Machining Development Engineer | CNC & Advanced Manufacturing";
+
+        if (metaDescription) {
+            metaDescription.setAttribute(
+                "content",
+                "Li Lu is a Machining Development Engineer at GE Vernova (AMRT) in Singapore with 10+ years of experience in CNC machining, machining process development, CNC programming, equipment integration and gas turbine repair technology."
+            );
+        }
 
     } else {
 
         document.title =
-            "Li Lu | 机加工开发工程师";
+            "李路 | 机加工开发工程师 | CNC 与先进制造";
+
+        if (metaDescription) {
+            metaDescription.setAttribute(
+                "content",
+                "李路，GE Vernova（AMRT）机加工开发工程师，常驻新加坡，拥有10年以上CNC加工、加工工艺开发、CNC编程、设备集成与燃汽轮机维修技术经验。"
+            );
+        }
 
     }
 

@@ -1880,6 +1880,18 @@ body.dark-mode .back-to-top:hover {
     }
 
 
+    /* Skills */
+
+    .skills-grid {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    .skill-group {
+        padding: 28px;
+    }
+
+
     /* Certifications */
 
     .certifications-grid {
